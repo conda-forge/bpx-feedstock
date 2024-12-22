@@ -17,13 +17,14 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - flit-core >=3.2,<4
+    - hatchling
+    - hatch-vcs
     - pip
   run:
     - python >={{ python_min }}
-    - devtools
-    - pydantic <2
+    - pydantic >=2.6
     - pyparsing
+    - pyyaml
 
 test:
   imports:
