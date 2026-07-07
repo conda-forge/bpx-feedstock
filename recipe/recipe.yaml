@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: bpx
-  version: "1.1.0"
+  version: "1.1.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/bpx-${{ version }}.tar.gz
-  sha256: 5ac3ca84bee5541d22c449d5fd3c30f2a45016ae5e6f678955deff40ed2410a9
+  sha256: dac34347032be4e40d246b1f0fff54511ea4fb05e1e79f05dc79298badbb584c
 
 build:
   number: 0
